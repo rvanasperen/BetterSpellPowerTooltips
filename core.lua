@@ -30,7 +30,7 @@ local function getReplacementText(text)
     end
 
     -- Spell damage for specific schools
-    specific, amount = text:match("^Equip: Increases damage done by (%a+) spells and effects by up to (%d+)%d.$")
+    specific, amount = text:match("^Equip: Increases damage done by (%a+) spells and effects by up to (%d+)%.$")
 
     if specific and amount then
         return "Equip: +" .. amount .. " " .. specific .. " Spell Damage."
