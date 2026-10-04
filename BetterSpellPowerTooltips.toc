@@ -3,6 +3,6 @@
 ## Notes: Compact spell power and healing in item tooltips.
 ## Author: Sharqy
 ## Version: 1.0.0
-## X-Curse-Project-ID: 999999
+## X-Curse-Project-ID: 1725944
 
 core.lua
